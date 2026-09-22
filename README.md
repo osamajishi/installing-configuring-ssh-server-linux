@@ -32,28 +32,35 @@ The virtual machine and supporting network resources were provisioned using an A
 ### Step 2: System Package Updates
 
 Connected to the instance and updated local repositories and system packages to their latest versions:
+
 ![update-apt](update-apt.png)
 
 Step 3: Install OpenSSH Server
 Installed the openssh-server package using the APT package manager:
+
 ![install-ssh-server](install-ssh-server.png)
 
 Step 4: Service Management (Start & Enable)
 Started the SSH service and configured systemd to automatically launch the daemon on system boot:
+
 ![start-enable-ssh](start-enable-ssh.png)
 
 Step 5: Service Status Verification
 Verified that the SSH daemon is active, running, and listening on Port 22:
+
 ![verify-status-ssh](verify-status-ssh.png)
 
 Step 6: Host Firewall Configuration (UFW)
 Configured the Uncomplicated Firewall (UFW) to allow incoming traffic on the default SSH port:
+
 ![allow-ssh-ufw](allow-ssh-ufw.png)
 
 Step 7: Remote Client Connection & Verification
 Established a remote connection from the local machine using PuTTY:
+
 ![putty-login](putty-login.png)
 Validated end-to-end SSH access directly via terminal to rootadmin@20.42.8.173:
+
 ![verify-ssh-login](verify-ssh-login.png)
 
 
