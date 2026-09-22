@@ -59,6 +59,7 @@ Step 7: Remote Client Connection & Verification
 Established a remote connection from the local machine using PuTTY:
 
 ![putty-login](putty-login.png)
+
 Validated end-to-end SSH access directly via terminal to rootadmin@20.42.8.173:
 
 ![verify-ssh-login](verify-ssh-login.png)
